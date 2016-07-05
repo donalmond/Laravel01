@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAIA;EACI,cAHW,EAId","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n$salmon: salmon; \n\nbody {\n    color: $salmon;\n}\n"],"sourceRoot":"/source/"}
