@@ -2,18 +2,18 @@
 
 @section('content')
 <!-- OG php syntax
-<?php foreach ($wines as $wine) : ?>
-    <li><?= $wine; ?></li>
+<?php foreach ($salads as $salad) : ?>
+    <li><?= $salad; ?></li>
 <?php endforeach; ?>
 -->
 
-@if (empty($wines))
-    There are no wines.
+@if (empty($salad))
+    There are no salads.
 @else
-    Here are your wines!
+    Here are your salads!
 @endif
 
-@foreach ($wines as $wine)
-    <li>{{ $wine }}</li>
+@foreach ($salads as $salad)
+    <li>{{ $salad }}</li>
 @endforeach
 @stop

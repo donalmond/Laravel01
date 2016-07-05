@@ -14,6 +14,12 @@ Route::get('/', 'PagesController@home');
 
 Route::get('about', 'PagesController@about');
 
+Route::get('wines', 'WinesController@index');
+
+Route::get('wines/{wine}', 'WinesController@show');
+
+
+
 // Route::get('about', function () {
 //     return view('pages.about');
 // });

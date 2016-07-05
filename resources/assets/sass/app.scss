@@ -1,7 +1,14 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-$salmon: salmon; 
+$primary-color: #582335;
+$secondary-color: salmon;
+$primary-font-color: white;
 
 body {
-    color: $salmon;
+    background-color: $primary-color;
+    color: $primary-font-color;
+}
+
+h2 {
+    color: $secondary-color
 }

@@ -10,9 +10,9 @@ class PagesController extends Controller
 {
     public function home()
     {
-        $wines = ["Shiraz", "Malbec", "Cabernet"];
+        $salads = ["Waldorf", "Caesar", "Beetroot"];
 
-        return view('pages.welcome', compact('wines'));
+        return view('pages.welcome', compact('salads'));
     }
 
     public function about()
