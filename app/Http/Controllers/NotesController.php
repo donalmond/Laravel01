@@ -18,7 +18,7 @@ class NotesController extends Controller
         // $note = new Note(['body' => $request->body]);
         // $wine->notes()->save($note);
 
-        $card->addNotes(
+        $wine->addNote(
             new Note($request->all())
         );
 
