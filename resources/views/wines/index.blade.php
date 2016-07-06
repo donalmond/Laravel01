@@ -6,7 +6,7 @@
     @foreach ($wines as $wine)
         <div>
             <h2>
-        {{ $wine->title }}
+        <a href="/wines/{{ $wine->id }}">{{ $wine->title }}</a>
             </h2>
         </div>
     @endforeach

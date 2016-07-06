@@ -17,6 +17,8 @@ class WinesController extends Controller
 
     public function show(Wine $wine)
     {
+
         return view('wines.show', compact('wine'));
+
     }
 }

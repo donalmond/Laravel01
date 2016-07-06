@@ -2,13 +2,23 @@
 
 $primary-color: #582335;
 $secondary-color: salmon;
-$primary-font-color: white;
+$primary-font-color: black;
+$link-font-color:mediumaquamarine;
 
 body {
     background-color: $primary-color;
     color: $primary-font-color;
 }
 
-h2 {
-    color: $secondary-color
+h1, h2, h3 {
+    color: $secondary-color;
+}
+
+a{
+    color:$link-font-color;
+    text-decoration: none;
+}
+a:hover{
+    color:$secondary-color;
+    text-decoration: none;
 }
