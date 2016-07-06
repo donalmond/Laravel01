@@ -18,7 +18,9 @@
 
             <h3>Add a New Note</h3>
 
-            <form>
+            <form method="POST" action="/wines/{{ $wine->id }}/notes ">
+            <!-- line below is needed to post -->
+            <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
                 <div class="form-group">
                     <textarea name="body" class="form-control"></textarea>
                 </div>
